@@ -794,6 +794,20 @@
 		    color: #CF9C67;
 		}
 		
+		a:hover {
+		    color: #121212;
+		    transition: 300ms;
+		}
+		
+		.footerlink {
+		    color: #CF9C67;
+		}
+		
+		.footerlink:hover {
+		    color: #121212;
+		    transition: 300ms;
+		}
+		
 		a:active,
 		a:focus {
 		    background: transparent;
@@ -934,6 +948,12 @@
 		.cta button {
 		    color: #FFFFFF;
 		    background-color: #CF9C67;
+		}
+		
+		.cta button:hover {
+		    color: #121212;
+		    background-color: transparent;
+		    border-color: #FFFFFF 1px solid;
 		}
 		/* The following was requested from one of our users, it's the so-called "must have" cross-browser placeholder text colouring: if your not worried about it, simply delete it, as the placeholder will take on the default preset colour, but it will be rendered differently in each browser */
 		
