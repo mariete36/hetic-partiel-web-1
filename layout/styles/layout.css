@@ -80,7 +80,11 @@
 		}
 		/* Content */
 		
-		.container .content {}
+		.container .content {
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		}
 		
 		.sectiontitle {
 		    display: block;
@@ -1152,6 +1156,7 @@
 		        width: auto;
 		        margin: 0 0 30px 0;
 		        padding: 0;
+		        text-align: center;
 		    }
 		    #header {
 		        text-align: center;
@@ -1170,7 +1175,8 @@
 		        max-width: none;
 		    }
 		    .services+footer {
-		        text-align: left;
+		        display: flex;
+		        justify-content: center;
 		    }
 		    .cta> :first-child {
 		        margin-top: 0;
